@@ -1,16 +1,57 @@
-# React + Vite
+# 🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive weather app built with **React, Vite and Tailwind CSS**. Search any city in the world and see live weather, an hourly forecast and a 7-day forecast. The background changes with the weather and the time of day.
 
-Currently, two official plugins are available:
+Built as part of my **Syntecxhub Virtual Web Development Internship**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Screenshot
 
-## React Compiler
+![Weather App](screenshot.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+- Search any city, with suggestions while you type
+- Use your current location with one click (📍)
+- Current temperature, conditions, and "feels like"
+- Next 24 hours hourly forecast
+- 7-day forecast with rain chance
+- Humidity, wind speed and direction, pressure, UV index, sunrise and sunset
+- °C / °F toggle (wind switches between km/h and mph)
+- Background theme changes with weather and day or night
+- Remembers your last city, recent searches and unit
+- Loading and error messages
+- Fully responsive (mobile and desktop)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
+
+- **React** (hooks: `useState`, `useEffect`)
+- **Vite**
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+- **Open-Meteo API** (weather and city search, no API key needed)
+- **Browser Geolocation API** and **localStorage**
+
+## 🚀 Run it locally
+
+```bash
+git clone https://github.com/umaima8920/Syntecxhub_Weather_App.git
+cd Syntecxhub_Weather_App
+npm install
+npm run dev
+```
+
+Then open http://localhost:5173 in your browser.
+
+## 🌐 Live demo
+
+Add your live link here (for example, from Vercel or Netlify).
+
+## 🙏 Credits
+
+Weather data by [Open-Meteo.com](https://open-meteo.com/).
+
+## 👩‍💻 Author
+
+**Umaima Malik**
+GitHub: [umaima8920](https://github.com/umaima8920)
+LinkedIn: [Umaima Malik](https://www.linkedin.com/in/umaima-malik-62a4213a7)
